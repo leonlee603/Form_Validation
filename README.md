@@ -1,6 +1,6 @@
 # Form_Validation
-Form validation by JavaScript
-<br>
+Form validation by JavaScript<br>
+
 This is a registeration form with JavaScript to provide the validation function.
 There are four fields in this form, including "Username", "Email" ,"Password" & "Confirm Password".
 <br>
@@ -12,6 +12,6 @@ The validation including following things:
 <br>
 If the condition is match. The border color of the field will trun green to indicate it is correct by adding a "success" class to the form element.
 Else, the border color of the field will turn red.
-
-Live Demo:
+<br>
+Live Demo:<br>
 https://leonlee603.github.io/Form_Validation/
