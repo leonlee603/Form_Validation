@@ -3,7 +3,7 @@ const username = document.getElementById("username");
 const email = document.getElementById("email");
 const password = document.getElementById("password");
 const confirmation = document.getElementById("confirmation");
-
+// Functions for displaying message
 function showSuccess(input) {
     const parent = input.parentElement;
     parent.className = "form-control success";
@@ -17,6 +17,7 @@ function getFieldName(input) {
     let fieldName = input.id.charAt(0).toUpperCase() + input.id.slice(1);
     return fieldName;
 }
+// Functions for validation
 function checkRequired(arrList) {
     arrList.forEach(input => {
         input.value = input.value.trim();
@@ -44,6 +45,7 @@ function checkPasswordConfirmation(input1, input2) {
         showError(input2, `Passwords do not match`);
     }
 }
+// Event for form submission
 form.addEventListener("submit", function(e) {
     e.preventDefault();
     checkRequired([username, email, password, confirmation]);
