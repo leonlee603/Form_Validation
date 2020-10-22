@@ -9,7 +9,7 @@ The validation including following things:
 2. Number of character of "Username" and "Password" must be within a range. We check that by comparing the length of the string.
 3. Email must match with certain pattern. We check that by using .test() function to return the boolean value.
 4. "Password" must have the same value as the "Cofirm Password".
-<br>
+
 If the condition is match. The border color of the field will trun green to indicate it is correct by adding a "success" class to the form element.
 Else, the border color of the field will turn red.
 <br>
